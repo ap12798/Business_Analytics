@@ -1,0 +1,1 @@
+http://varianceexplained.org/r/kmeans-free-lunch/
