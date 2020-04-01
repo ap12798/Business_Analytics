@@ -1,0 +1,71 @@
+ACT and SAT features should just be the composite score
+
+Additional userful data
+did participant fill out survey last year Y/N/Null
+
+Transformations
+Subb_ID 
+Responded_survey from numerical to categorical
+Resident 
+Eval_Major
+College_code1
+College_name1
+Major_code1
+Major_text1 matches major1, proposal would be to remove from dataset
+CIP_code1 matches major, proposal would be to remove from dataset
+College_code2
+College_name2
+Major_code2
+Major_text2 matches major2, proposal would be to remove from dataset
+CIP_code2 matches major2, proposal would be to remove from dataset
+Level_grad - from numerical to ordinal (categorical)
+Mod_assign2015 - from numerica to categorical
+ISE_SA - dataset only has 1, could remove
+*Invited_previous - not on data dictionary, but assume that this means the person was invited
+to the survey sometime in the past and 1 means yes and null be no. 
+recode nulls to 0 and change data type to categorical
+
+SP16_ENRL_HRS_AT CENSUS
+SP16_TERM_UI_GRADED_HRS
+SP16_TERM_UI_TOTAL_HOURS
+ACT
+ACTE
+ACTM
+ACTR
+ACTS
+AFRICANAMERICAN-Ethnicity should take care of this one
+AGE
+AMERIANDIAN-Ethnicity should take care of this one
+ASIAN-Ethnicity should take care of this one
+DECLINETOSTATE-remove
+ETHNICITY_LOC
+EXCLUDE-remove
+GENDER
+Hispanic-Ethnicity should take care of this one
+HSRank
+Level-from numeric to ordinal (categorical)
+Semester hours-what does this mean? total hours to date?
+nonresident-change blanks to 0 and Y to 1 and data type to categorical
+pacificislander-Ethnicity should take care of this one
+*Can you do some sort of normalizing between ACT and SAT and the 
+SAT
+SATICR
+SATIIM-remove
+SATIIW-remove
+SATIM-
+SATIW
+STATUS-from numerical to categorical
+TERM1-from numerical to categorical
+TOTAL_UNITS-
+WHITE-remove, should be taken care of by Ethnicity
+YEAR-date or categorical
+HS_PERCENTILE_RANK-what to do with missing values?
+IS_PARENT_HIGHER_ED_GRAD-what to do with missing values?
+
+
+Target variable - survey
+
+
+interesting observations
+survey response from each level of grad
+servey respsones from each major (college name 1)
