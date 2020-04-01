@@ -1,0 +1,12 @@
+within rattle <- mixed data <- covert all to numerical (will introduce a lot of bias)
+1st cluster on numerics within k-means
+create new categorical variable using cluster ID base on this clustering
+then cluster on categorical
+
+association rules
+practical challenge -> what is the level of granularity
+	soda or orange vanilla coke or diet cherry pepsi
+	SKUs aggregate or disaggregate so that items occur roughly in same number of transactions
+	(same order of magnitude)
+you could break down certain categories, but not all i.e. transaction soda happens an order of 
+magintude more than all other items. So you break down soda
